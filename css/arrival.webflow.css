@@ -1,0 +1,223 @@
+body {
+  height: 100%;
+  font-family: nimbus-sans, sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+a {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+.home-placeholder {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  padding: 1rem;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.home-placeholder-main {
+  text-align: center;
+}
+
+.homeplaceholder-image {
+  width: auto;
+  height: 60vh;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.image {
+  margin-top: 1rem;
+}
+
+.download-link {
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.builtbyronan {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.download {
+  width: 10rem;
+}
+
+.legal {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.legal-text-block {
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .home-placeholder {
+    height: auto;
+    -ms-grid-rows: 100% auto;
+    grid-template-rows: 100% auto;
+  }
+
+  .homeplaceholder-image {
+    height: 50vh;
+  }
+
+  .footer-container {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .homeplaceholder-image {
+    height: auto;
+    max-height: 50vh;
+  }
+}
+
+#w-node-_58eb9803-4fec-c526-dade-0be75e10f693-f3196c07 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-cab76cd3-a5bf-9730-1977-9e1a0480dafa-f3196c07 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+#w-node-_7af42656-cef2-acf3-3070-e29c596e6f2d-d6211c4b {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+#w-node-_7af42656-cef2-acf3-3070-e29c596e6f2d-f8d24783 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-c06b018d-4269-84d0-a4c3-3953e1e1a090-f3196c07 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+
+  #w-node-cab76cd3-a5bf-9730-1977-9e1a0480dafa-f3196c07 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+
+  #w-node-_7af42656-cef2-acf3-3070-e29c596e6f2d-d6211c4b {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+
+  #w-node-_7af42656-cef2-acf3-3070-e29c596e6f2d-f8d24783 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+}
+
