@@ -215,12 +215,8 @@ a {
     height: 50vh;
   }
 
-  .footer-container {
-    height: 100%;
-  }
-
   .container {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 
   .appshot {
@@ -246,6 +242,8 @@ a {
   }
 
   .screen-shot-container.right {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
