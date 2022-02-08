@@ -180,6 +180,30 @@ a {
   text-align: center;
 }
 
+.heading-2 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .appshot {
+    height: 30rem;
+  }
+
+  .screen-shot-container.right {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .heading-2 {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .home-placeholder {
     height: auto;
@@ -197,6 +221,54 @@ a {
 
   .container {
     padding: 2rem;
+  }
+
+  .appshot {
+    width: 20rem;
+    height: auto;
+  }
+
+  .screen-shot-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .screen-shot-container.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .screen-shot-text-block {
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .screen-shot-text-block.right {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
