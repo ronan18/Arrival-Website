@@ -255,6 +255,11 @@ a {
     align-items: center;
   }
 
+  .textblock-for-features {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .screen-shot-text-block {
     padding-top: 0rem;
     padding-right: 0rem;
